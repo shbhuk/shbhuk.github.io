@@ -2763,12 +2763,15 @@ input, select, textarea {
 			flex-shrink: 0;
 			bottom: 0;
 			left: 0;
-			padding: 2em;
+			padding: 0.5em;
 			width: 100%;
 		}
 
 			#header > footer .icons {
 				margin: 0;
+				display: block;
+				background-color:#1b4e52 /* Change this to modify background to URL icons on the right*/
+
 			}
 
 				#header > footer .icons li a {
