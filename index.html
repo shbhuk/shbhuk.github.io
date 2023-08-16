@@ -10,6 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/d9b8dfa3a6.js" crossorigin="anonymous"></script>
+		<style>
+		  ol {
+			columns: 2;
+			-webkit-columns: 2;
+			-moz-columns: 2;
+		  }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -18,12 +26,12 @@
 				<header>
 					<span class="image avatar"><img src="images/DummyProfile.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Shubham Kanodia</a></h1>
-					<p>Astro PhD student </p>
+					<p>Carnegie Postdoctoral Fellow </p>
 				</header>
 				<nav id="nav">
 					<ul>
 						<li><a href="#about" class="active">About Me</a></li>
-						<li><a href="#current">Current Projects</a></li>
+						<li><a href="#current">Ongoing Projects</a></li>
 						<li><a href="#interests">Interests</a></li>
 						<li><a href="#tools">Open-Source tools</a></li>
 						<li><a href="#outreach">Mentoring & Outreach</a></li>
@@ -59,14 +67,14 @@
 										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
 -->
 									</header>
-									<p>I recently joined the Carnegie Earth & Planets Lab, Washington DC as a Carnegie Postdoctoral Fellow, where  I will help measure the masses of a sample of gas giants orbiting M-dwarfs, and then leverage this to estimate their detection sensitivity and occurrence rates, as observed the TESS mission. 
-									Finally, I will combine this population of transiting gas giants with published radial velocity survey results (as well as potential future detection from GAIA) 
-									using a novel 4 dimensional nonparametric statistical technique that I've developed (<a href="https://github.com/shbhuk/mrexo"> MRExo</a>).  <b>This will help us better understand the formation processes of gas giants around M-dwarfs and their dependence of stellar and orbital parameters. </b>
+									<p>I am a <a href="https://epl.carnegiescience.edu/dr-shubham-kanodia">Carnegie Postdoctoral Fellow</a> at Carnegie's <a href="epl.carnegiescience.edu/"> Earth & Planets Lab</a> in Washington DC. Along with my collaborators I have multiple ongoing projects geared towards understanding the small and red M-dwarf stars, and the planets that orbit them. 
+									A lot of this is focussed towards the discovery, characterization and formation of Giant Exoplanets around M-dwarf Stars (GEMS), an extreme regime of planet formation that has traditionally been hard to explain. 
 									</p>
 									
 									<p>
-									Before this, I was a graduate student at <a href="https://science.psu.edu/astro">Penn State Department of Astronomy & Astrophysics</a>, where I worked on exoplanet instrumentation and statistics, with my advisor Suvrath Mahadevan. 
-									My research focussed on developing the tools to <b>detect exoplanets, and characterise their populations</b>, particularly those <b>orbiting cool and low mass stars</b>. </p>
+									Before coming to Carnegie, I was a graduate student at <a href="https://science.psu.edu/astro">Penn State Department of Astronomy & Astrophysics</a>, where I worked on exoplanet instrumentation and statistics, with my advisor Suvrath Mahadevan. 
+									Before coming to Carnegie, I was a graduate student at <a href="https://science.psu.edu/astro">Penn State Department of Astronomy & Astrophysics</a>, where I worked on exoplanet instrumentation and statistics, with my advisor Suvrath Mahadevan. 
+									My research focussed on developing the tools to <b>detect exoplanets, and characterise their populations</b>, particularly those <b>orbiting these cool and low mass stars</b>. </p>
 									
 									<p>
 									I helped develop and deploy two highly precise radial velocity (RV) spectrographs - the near-infrared  Habitable zone Planet Finder (HPF)  and the 
@@ -89,14 +97,67 @@
 						<!-- Two -->
 							<section id="current">
 								<div class="container">
-									<h3>Current Projects</h3>
+									<h3>Ongoing Projects</h3>
 <!--
 									<p>Below are some of the projects I am currently working on:</p>
 -->
+
 										<header>
+
+											<h4>Searching for Giant Exoplanets around M-dwarf Stars (GEMS)</h4>
+											<h5>Detection & Characterization </h5>
+											Using a combination of photometric, spectroscopic and high-contrast imaging observations to detect and characterize transiting GEMS.
+											<h5>Relevant Publications:</h5>
+												<ul>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230706880D/abstract">Delamer et al. 2023 -      TOI-4201: An Early M-dwarf Hosting a Massive Transiting Jupiter Stretching Theories of Core-Accretion      </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023AJ....166...30C/abstract">Cañas et al. 2023 -      TOI-3984 A b and TOI-5293 A b: Two Temperate Gas Giants Transiting Mid-M Dwarfs in Wide Binary Systems      </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165..249L/abstract">Libby-Roberts et al. 2023 -     An In-Depth Look at TOI-3884b: a Super-Neptune Transiting a M4 Dwarf with Persistent Star Spot Crossings     </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023AJ....166...90L/abstract">Lin et al. 2023 -     The unusual M-dwarf Warm Jupiter TOI-1899~b: Refinement of orbital and planetary parameters     </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165..120K/abstract">Kanodia et al. 2023 -    TOI-5205b: A Jupiter transiting an M-dwarf near the Convective Boundary    </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022AJ....164...81K/abstract">Kanodia et al. 2022 -   TOI-3757 b: A low density gas giant orbiting a solar-metallicity M-dwarf    </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022AJ....164...50C/abstract">Cañas et al. 2022 -   TOI-3629, TOI-3714: Two gas giants transiting M-dwarfs confirmed with HPF and NEID    </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2020AJ....160..147C/abstract">Cañas et al. 2020 - TOI-1899:  A Warm Jupiter Transiting an M-dwarf: A TESS Single-transit Event Confirmed with the Habitable-zone Planet Finder  </a></li>
+												</ul>
+
+
+											<h5> Formation </h5>
+											Exploring the formation scenarios of GEMS across a range of protostellar M-dwarfs.
+											<h5>Relevant Publications:</h5>
+												<ul>
+													<li style="font-size:0.9em"><a href="">Boss & Kanodia 2023 - Forming Gas Giants Around a Range of Protostellar M-dwarfs by Gas Disk Gravitational Instability </a></li>
+												</ul>
+
+											<h5> Atmospheric Characterization </h5>
+											<p> I am the PI of a large <a href="https://gemsjwst.github.io/">JWST Cycle 2 program GO 3171</a> along with co-PIs Caleb Cañas and Jessica Libby-Roberts, and an amazing group of collaborators to perform novel investigations into the atmospheres of GEMS and compare them with canonical hot-Jupiters found around solar-type stars.</p>
+
+											<h4>Characterizing sub-Jovian planets orbiting M-dwarfs</h4>
+											<p>I am currently part of a team that is following up on <a href="https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite/">TESS planet candidates</a> orbiting M-dwarfs to obtain precise mass measurements. It is imperative
+											to obtain these precise mass measurements to find suitable targets for future transmission spectroscopy missions such as the <a href="https://www.jwst.nasa.gov/">James Webb Space Telescope</a>, as well as to populate the Mass-Radius plane for M-dwarf host exoplanets.
+											We do this using a combination of precise radial velocity measurements using HPF and NEID, and <a href="https://ui.adsabs.harvard.edu/abs/2017ApJ...848....9S/abstract">diffuser-assisted photometry</a>. </p>
+											<h5>Relevant Publications:</h5>
+												<ul>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023AJ....166...44P/abstract">Powers et al. 2023 -      TOI-3785 b: A Low-density Neptune Orbiting an M2-dwarf Star      </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230313321S/abstract">Stefansson et al. 2023 -  An extreme test case for planet formation: a close-in Neptune orbiting an ultracool star    </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022AJ....163..286B/abstract">Beard et al. 2022 -    TOI-1696 and TOI-2136: Constraining the Masses of Two Mini-Neptunes with the Habitable-Zone Planet Finder      </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022ApJ...936...55B/abstract">Beard et al. 2022 -   GJ 3929: High-precision Photometric and Doppler Characterization of an Exo-Venus and Its Hot, Mini-Neptune-mass Companion     </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2021AJ....162..135K/abstract">Kanodia et al. 2021 -  TOI-532: The Habitable-zone Planet Finder confirms a Large Super Neptune in the Neptune Desert orbiting a metal-rich M-dwarf host   </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2020AJ....160..259S/abstract">Stefansson et al. 2020 - TOI-1266: A Mini-Neptune and a Venus-Zone Planet in the Radius Valley Orbiting the Nearby M2-dwarf TOI-1266: Validation with the Habitable-zone Planet Finder   </a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...899...29K/abstract">Kanodia et al. 2020 - TOI-1728: The Habitable-zone Planet Finder Confirms a Warm Super-Neptune Orbiting an M-dwarf Host</a></li>
+													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2020AJ....160..192S/abstract">Stefansson et al. 2020 -  The Habitable Zone Planet Finder Reveals a High Mass and Low Obliquity for the Young Neptune K2-25b </a></li>
+
+												</ul>
+										</header>
+										<hr />
+										<header>
+
+
+
+
 											<h4>Developing Precision RV spectrographs</h4>
-											<h5> Habitable-zone Planet Finder</h5>
-											<p>I was instrumental in the fabrication, testing, and commissioning of the fiber injection system for HPF. I also performed the optical simulations to facilitate the optical alignment of the instrument during the alignment, integration and verification phase at Penn State.</p>
+											<h5>Habitable-zone Planet Finder (HPF)</h5>
+											<p>HPF is one of the most precise near-infrared precision RV instruments, and is deployed at the 10-m telescope in Texas, USA. I have been a key member of the instrument and science teams for the instrument, 
+												and was led the fabrication, testing, and commissioning of the fiber injection system for HPF. 
+												I also performed the optical simulations to facilitate the optical alignment of the instrument during the alignment, integration and verification phase at Penn State.</p>
 
 
 										<div class="box alt">
@@ -108,9 +169,9 @@
 
 											<h5> NEID </h5>
 											<p>NEID -the cornerstone of the NASA-NSF NN-EXPLORE partnership- is an optical RV spectrograph spanning 380 to 930 nm. Built to achieve an instrument precision of 30 cm/s, it is designed to find Earth-like planets in the habitable zones around FGK stars.
-											I am responsible for the development, fabrication and testing of the <a href="https://neid.psu.edu/2018/06/27/the-neid-spectrograph-optical-fiber-train/">NEID fiber injection system which includes the instrument fiber, scrambling system, as well as the fibers associated with the calibration system</a>. 
-											In addition, I am in charge of the testing and deployment the NEID exposure meter system to provide chromatic barycentric corrections at the 1 cm/s level.
-											I am currently involved with the <a href="https://neid.psu.edu/2020/01/16/neid-has-its-first-light-on-51-peg/">commissioning and engineering of this instrument at the 3.5 m WIYN telescope in Arizona, USA</a>. </p>
+											As a part of the NEID instrument and science team, I was responsible for the development, fabrication and testing of the <a href="https://neid.psu.edu/2018/06/27/the-neid-spectrograph-optical-fiber-train/">NEID fiber injection system which includes the instrument fiber, scrambling system, as well as the fibers associated with the calibration system</a>. 
+											In addition, I was in charge of the design,  testing and deployment the NEID exposure meter system to provide chromatic barycentric corrections at the 1 cm/s level. I was also a part of the <a href="https://neid.psu.edu/2020/01/16/neid-has-its-first-light-on-51-peg/">commissioning team
+											for the instrument in 2019-2020</a>, and regularly use its precision capabilities towards forwarding our science goals. </p>
 
 										<div class="box alt">
 											<div class="row gtr-50 gtr-uniform">
@@ -124,6 +185,7 @@
 
 											<h5>Relevant Publications:</h5>
 											<ul>
+												<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230712403K/abstract">Kanodia et al. 2023 -  Stable fiber-illumination for extremely precise radial velocities with NEID </a></li>
 												<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2021ApJ...912...15K/abstract">Kanodia et al. 2021 - A Harsh Test of Far-Field Scrambling with the Habitable Zone Planet Finder and the Hobby Eberly Telescope</a></li>
 												<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2020arXiv201200182K/abstract">Kanodia et al. 2020 - Ghosts of NEID's past</a></li>
 												<li style="font-size:0.9em"><a href="http://adsabs.harvard.edu/abs/2020PSJ.....1...38W">Wright and Kanodia 2020</a>, and <a href="https://ui.adsabs.harvard.edu/abs/2018RNAAS...2....4K/abstract">Kanodia and Wright 2018</a> - Barycentric Corrections for Precise Radial Velocity Measurements </li>
@@ -135,34 +197,14 @@
 										<hr />
 										<header>
 											<h4>Non-parametric statistical tools to study planetary population</h4>
-											<p>We developed novel non-parametric tools to study the <a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...882...38K/abstract">Mass-Radius relationship for exoplanet orbiting M-dwarf host stars</a>, 
-											and then compared this relationship for analogous planets around FGK stars. I am currently working on <a href="https://zenodo.org/record/4767605">extending this relationship to higher dimensions to provide a holistic view of planetary population parameters (mass, radius, period), 
-											in context of stellar properties such as mass, metallicity, age</a>.</p>
+											<p>I have helped developed novel non-parametric tools to study the <a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...882...38K/abstract">Mass-Radius relationship for exoplanet orbiting M-dwarf host stars</a>, 
+											and then compared this relationship for analogous planets around FGK stars. Since then I have helped extend this framework to multiple dimensions and allow the simultaneous unbiased modelling of upto four dimensions to study the interplay between
+											stellar properties such as mass, metallicity, age and planetary population parameters (mass, radius, period). </p>
 											<h5>Relevant Publications:</h5>
 											<ul>													
+												<li style="font-size:0.9em"><a href="">Kanodia et al. 2023 (submitted) -  Beyond 2-D Mass-Radius Relationships: A Nonparametric and Probabilistic Framework for Characterizing Planetary Samples in Higher Dimensions </a></li>
 												<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...882...38K/abstract">Kanodia et al. 2019 - Mass-Radius Relationship for M-dwarf Exoplanets: Comparing Nonparametric and Parametric Methods</a></li>
-												<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...869....5N/abstract">Ning et al. 2018 -  Predicting Exoplanet Masses and Radii: A Nonparametric Approach </a></li>
 											</ul>
-										</header>
-										<hr />
-										<header>
-											<h4>Detecting TESS transiting planets orbiting M-dwarfs</h4>
-											<p>I am currently part of a team that is following up on <a href="https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite/">TESS planet candidates</a> orbiting M-dwarfs to obtain precise mass measurements. It is imperative
-											to obtain these precise mass measurements to find suitable targets for future transmission spectroscopy missions such as the <a href="https://www.jwst.nasa.gov/">James Webb Space Telescope</a>, as well as to populate the Mass-Radius plane for M-dwarf host exoplanets.
-											We do this using a combination of precise radial velocity measurements using HPF and NEID, and <a href="https://ui.adsabs.harvard.edu/abs/2017ApJ...848....9S/abstract">diffuser-assisted photometry</a>. </p>
-											<h5>Relevant Publications:</h5>
-												<ul>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230204757L/abstract">Libby-Roberts et al. 2023 -     An In-Depth Look at TOI-3884b: a Super-Neptune Transiting a M4 Dwarf with Persistent Star Spot Crossings     </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230110837L/abstract">Lin et al. 2023 -     The unusual M-dwarf Warm Jupiter TOI-1899~b: Refinement of orbital and planetary parameters     </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220911160K/abstract">Kanodia et al. 2022c -    TOI-5205b: A Jupiter transiting an M-dwarf near the Convective Boundary    </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022AJ....164...81K/abstract">Kanodia et al. 2022b -   TOI-3757 b: A low density gas giant orbiting a solar-metallicity M-dwarf    </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022AJ....164...50C/abstract">Canas et al. 2022 -   TOI-3629, TOI-3714: Two gas giants transiting M-dwarfs confirmed with HPF and NEID    </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2022ApJ...936...55B/abstract">Beard et al. 2022 -   GJ 3929: High-precision Photometric and Doppler Characterization of an Exo-Venus and Its Hot, Mini-Neptune-mass Companion     </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2021AJ....162..135K/abstract">Kanodia et al. 2021 -  TOI-532: The Habitable-zone Planet Finder confirms a Large Super Neptune in the Neptune Desert orbiting a metal-rich M-dwarf host   </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2020AJ....160..259S/abstract">Stefansson et al. 2020 - TOI-1266: A Mini-Neptune and a Venus-Zone Planet in the Radius Valley Orbiting the Nearby M2-dwarf TOI-1266: Validation with the Habitable-zone Planet Finder   </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2020AJ....160..147C/abstract">Cañas et al. 2020 - TOI-1899:  A Warm Jupiter Transiting an M-dwarf: A TESS Single-transit Event Confirmed with the Habitable-zone Planet Finder  </a></li>
-													<li style="font-size:0.9em"><a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...899...29K/abstract">Kanodia et al. 2020 - TOI-1728: The Habitable-zone Planet Finder Confirms a Warm Super-Neptune Orbiting an M-dwarf Host</a></li>
-												</ul>
 										</header>
 										<hr />
 										<header>
@@ -200,17 +242,21 @@
 								<div class="container">
 									<h3>Interests</h3>
 									<p></p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-wrench">Instrumentation</li>
-										<li class="alt icon solid fa-chart-line">Astrostatistics</li>
-										<li class="icon solid fa-sun">M-dwarfs</li>
-										<li class="alt icon solid fa-star">Spectroscopy</li>
-										<li class="alt icon solid fa-caret-right">Fiber Optics</li>
-										<li class="alt icon solid fa-laptop">Optical Simulation</li>
-										<li class="alt icon solid fa-satellite-dish">SETI</li>
-									</ul>
+									<ol class="fa-ul">
+										<li><span class="fa-li"><i class="icon solid fa-sun"></i></span>M-dwarfs</li>
+										<li><span class="fa-li"><i class="fa-solid fa-spinner fa-pulse"></i></span>Giant Planets</li>
+										<li><span class="fa-li"><i class="fa-solid fa-spinner fa-pulse"></i></span>Planet Formation</li>
+										<li><span class="fa-li"><i class="alt icon solid fa-cloud"></i></span>Atmospheric Characterization</li>
+										<li><span class="fa-li"><i class="alt icon solid fa-chart-line"></i></span>Astrostatistics</li>
+<!--
+										<li><span class="fa-li"><i class="alt icon solid fa-star"></i></span>Stellar Spectroscopy</li>
+-->
+										<li><span class="fa-li"><i class="icon solid fa-wrench"></i></span>Instrumentation</li>
+										<li><span class="fa-li"><i class="alt icon solid fa-caret-right"></i></span>Fiber Optics</li>
+										<li><span class="fa-li"><i class="alt icon solid fa-laptop"></i></span>Optical Simulation</li>
+										<li><span class="fa-li"><i class="alt icon solid fa-satellite-dish"></i></span>SETI</li>
+									</ol>
 									
-
 								</div>
 							</section>
 
@@ -220,6 +266,7 @@
 									<h3>Open-Source tools</h3>
 									<p>I have helped develop a few <code>Python</code> packages that are open source and available to the community.</p>
 									<ul class="icons">
+										<li class="icon solid fa-code"><a href="https://github.com/shbhuk/pyastrotools"> pyastrotools </a> - Library of helper functions for astronomical calculations, observation planning, instrumentation, etc. </li>
 										<li class="icon solid fa-code"><a href="https://github.com/shbhuk/barycorrpy"> Barycorrpy</a> - Adapted from <a href="https://ui.adsabs.harvard.edu/abs/2014PASP..126..838W">Wright and Eastman (2014)</a>, 
 										this package provides a simple routine to compute barycentric corrections for stellar radial velocity observations at the 1 cm/s level (<a href="https://ui.adsabs.harvard.edu/abs/2018RNAAS...2....4K/abstract">Kanodia and Wright 2018</a>). 
 										In addition, it also includes tools to compute barycentric corrections for observations of solar system objects (<a href="https://ui.adsabs.harvard.edu/abs/2020PSJ.....1...38W/abstract">Wright and Kanodia 2020</a>). </li>
@@ -235,16 +282,21 @@
 									<h3>Mentoring & Outreach</h3>
 									<h4>Mentoring</h4>
 										<ul>
-													<li style="font-size:0.9em">Helen Baran (2019 -- 2020) - Now a graduate student at Paris Observatory</li>
-													<li style="font-size:0.9em">Marissa Maney (2019 -- 2021) - Now a graduate student at Harvard University</li>
-													<li style="font-size:0.9em">Brody McElwain (2020 -- 2022) - Undergraduate/Master's student in Engineering Science at Penn State. Now a graduate student at University of Arizona</li>
+													<li style="font-size:0.9em">Helen Baran (2019 -- 2020) - Undergraduate student at Pennsylvania State University</li>
+													<li style="font-size:0.9em">Marissa Maney (2019 -- 2021) - Undergraduate student at Pennsylvania State University</li>
+													<li style="font-size:0.9em">Brody McElwain (2020 -- 2022) - Undergraduate/Master's student in Engineering Science at Penn State. </li>
+													<li style="font-size:0.9em">Megan Delamer (2022 -- ) - PhD student at Pennsylvania State University</li>
+													<li style="font-size:0.9em">Narisara (Mick) Mayer (2023) - Undergraduate at Haverford College </li>
 	
 										</ul>
-									<h4>Outreach</h4>
+									<h4>Educational Outreach</h4>
 									<ul class="icons">
+<!--
 										<li><span class="icon solid fa-users"></span> Astronomy on Tap, State College - Digging through the Cosmic Haystack (2019)</li>
 										<li><span class="icon solid fa-users"></span> Nerd Nite: Webster’s Cafe, State College - Searching for other worlds, other life (2019)</li>
 										<li><span class="icon solid fa-users"></span> Nehru Planetarium, Mumbai - Finding Earth 2.0 (2018)</li>
+-->
+										<li><span class="icon solid fa-users"></span> Volunteered for Carnegie Academy of Science (CASE) - First Light science program for middle-school kids (2022-23)</li>
 										<li><span class="icon solid fa-users"></span> AstroFest - Penn State Department of Astronomy Annual outreach event (2017-2020)</li>
 										<li><span class="icon solid fa-users"></span> Volunteered with Brown Cubesat Educational Outreach Saturday STEM program at West Broadway Middle School, Providence, RI, to communicate Science and Physics to students (2015-2016)</li>
 										<li><span class="icon solid fa-users"></span> Volunteered at Umang Foundation, Mumbai - teaching underprivileged children basic Mathematics and English (2012 - 2014) </li>
